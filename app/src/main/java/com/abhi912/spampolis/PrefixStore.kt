@@ -1,9 +1,9 @@
-package com.example.prefixblocker
+package com.abhi912.spampolis
 
 import android.content.Context
 
 object PrefixStore {
-    private const val PREFS = "prefix_blocker"
+    private const val PREFS = "spampolis"
     private const val KEY_ENABLED = "enabled"
     private const val KEY_PREFIXES = "prefixes"
 

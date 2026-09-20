@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "PrefixBlocker"
+rootProject.name = "SpamPolis"
 include(":app")

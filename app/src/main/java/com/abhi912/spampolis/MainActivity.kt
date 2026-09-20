@@ -1,4 +1,4 @@
-package com.example.prefixblocker
+package com.abhi912.spampolis
 
 import android.Manifest
 import android.app.Activity

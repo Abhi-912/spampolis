@@ -1,4 +1,4 @@
-package com.example.prefixblocker
+package com.abhi912.spampolis
 
 /**
  * Shared matching logic, used by both the screening service and the UI preview.

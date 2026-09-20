@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PrefixBlocker</string>
+    <string name="app_name">SpamPolis</string>
     <string name="set_as_screening_app">Set as Call Screening app</string>
     <string name="blocking_enabled">Blocking enabled</string>
     <string name="blocked_prefixes">Blocked numbers &amp; patterns</string>

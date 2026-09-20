@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate PrefixBlocker launcher icons with PIL (supersampled).
+"""Generate SpamPolis launcher icons with PIL (supersampled).
 
 Design: deep-red rounded square -> white badge circle -> red phone
 handset (crescent + ear/mouth knobs) crossed by a red slash with a

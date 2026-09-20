@@ -1,4 +1,4 @@
-# PrefixBlocker — auto-decline calls matching chosen digits (Android)
+# SpamPolis — auto-decline calls matching chosen digits (Android)
 
 Blocks spam by **prefix or pattern**: any incoming number matching your list
 (e.g. `140`, `160`, `080 4602 XXXX`) is auto-declined (busy tone, no ringing).
@@ -31,7 +31,7 @@ Everything else rings normally.
 
 ## One-time setup on the phone
 
-1. Install the APK, open **PrefixBlocker**.
+1. Install the APK, open **SpamPolis**.
 2. Grant phone permissions when asked.
 3. Tap **Set as Call Screening app** → **Allow**. (Android 10+ required for
    one-tap setup. Without this role Android never calls the service and
@@ -48,7 +48,7 @@ export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:
 sdkmanager "platform-tools" "platforms;android-34" "build-tools;34.0.0"
 
 # 2. Build:
-cd prefix-blocker
+cd spampolis
 gradle assembleDebug
 # APK: app/build/outputs/apk/debug/app-debug.apk
 adb install -r app/build/outputs/apk/debug/app-debug.apk
@@ -61,7 +61,7 @@ compileSdk + targetSdk 34 / minSdk 26.
 
 ```
 app/src/main/AndroidManifest.xml                      — permissions + CallScreeningService registration
-app/src/main/java/com/example/prefixblocker/
+app/src/main/java/com/abhi912/spampolis/
   PrefixBlockService.kt  — screen + auto-decline
   PhoneNormalize.kt      — digits-only + trunk-aware prefix match
   PrefixStore.kt         — prefixes + enabled flag

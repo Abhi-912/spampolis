@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.prefixblocker"
+    namespace = "com.abhi912.spampolis"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.prefixblocker"
+        applicationId = "com.abhi912.spampolis"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

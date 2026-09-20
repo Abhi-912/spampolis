@@ -1,4 +1,4 @@
-package com.example.prefixblocker
+package com.abhi912.spampolis
 
 import android.content.Context
 import java.text.SimpleDateFormat
@@ -6,7 +6,7 @@ import java.util.Date
 import java.util.Locale
 
 object BlockLogStore {
-    private const val PREFS = "prefix_blocker"
+    private const val PREFS = "spampolis"
     private const val KEY_LOG = "block_log"
     private const val MAX_ENTRIES = 100
 
