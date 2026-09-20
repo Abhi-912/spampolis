@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrefixBlocker</string>
+    <string name="set_as_screening_app">Set as Call Screening app</string>
+    <string name="blocking_enabled">Blocking enabled</string>
+    <string name="blocked_prefixes">Blocked numbers &amp; patterns</string>
+    <string name="prefix_hint">e.g. 140, 080 4602 XXXX</string>
+    <string name="wildcard_help">Tip: X = any one digit, * = any digits. “080 4602 XXXX” blocks only 080-4602-xxxx and leaves other 080 callers (deliveries) ringing.</string>
+    <string name="add">Add</string>
+    <string name="test_number">Test a number</string>
+    <string name="test_hint">e.g. +91 1401234567</string>
+    <string name="check">Check</string>
+    <string name="blocked_log">Blocked calls</string>
+    <string name="clear">Clear</string>
+</resources>
